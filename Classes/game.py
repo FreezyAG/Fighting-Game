@@ -131,7 +131,7 @@ class Person:
 
     def choose_enemy_spell(self):
         magic_choice = random.randrange(len(self.magic))
-        print ('magic choice is: ', magic_choice)
+        print ('magic choice is: you just added this ', magic_choice)
         spell = self.magic[magic_choice]
         magic_dmg = spell.generate_spell_damage()
 
